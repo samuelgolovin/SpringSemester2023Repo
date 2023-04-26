@@ -1,0 +1,134 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set font styles for the body */
+  body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  /* Set styles for links */
+  a {
+    color: purple;
+    text-decoration: none;
+    transition: color 0.2s ease-in;
+  }
+  
+  /* Set styles for hover effect on links */
+  a:hover {
+    color: gold;
+  }
+  
+  /* Set styles for table */
+  table {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  /* Set styles for table headers */
+  th {
+    background-color: purple;
+    color: #fff;
+    font-weight: bold;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  /* Set styles for table rows */
+  td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Set styles for alternate table rows */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Set styles for back buttons */
+  .back-button {
+    position: fixed;
+    left: 10px;
+    top: 20px;
+    background-color: purple;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  /* Set styles for hover effect on back buttons */
+  .back-button:hover {
+    background-color: gold;
+  }
+  
+  /* Set styles for submit buttons and other buttons */
+  button {
+    display: inline-block;
+    background-color: purple;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  /* Set styles for hover effect on submit buttons and other buttons */
+  button:hover {
+    background-color: gold;
+  }
+  
+  /* Set styles for input fields */
+  input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+  }
+
+input[type=submit]:hover {
+transition: background-color 0.3s ease-in-out;
+    background-color: gold;
+cursor: pointer;
+}
+  
+  /* Set styles for form labels */
+  label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Set styles for form error messages */
+  .error-message {
+    color: red;
+    margin-top: 5px;
+  }
+
+ul {
+
+list-style-type: none;
+}
+
+li {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 20pt;
+display: flex;
+justify-content: center;
+padding: 10px;
+margin: 5px;
+}
+  
